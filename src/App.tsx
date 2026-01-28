@@ -1,11 +1,12 @@
+import ObjectiveKeyForm from "./components/ObjectiveKeyForm.tsx";
 
 
 function App() {
 
   return (
-    <>
-        <p className={"text-2xl text-red-200"}>Hello</p>
-    </>
+    <div className={"flex h-screen items-center justify-center border"}>
+        <ObjectiveKeyForm />
+    </div>
   )
 }
 
