@@ -1,11 +1,9 @@
-import ObjectiveKeyForm from "./components/ObjectiveKeyForm.tsx";
-
+import ObjectiveKeyForm from './components/ObjectiveKeyForm.tsx'
 
 function App() {
-
   return (
-    <div className={"flex h-screen items-center justify-center border"}>
-        <ObjectiveKeyForm />
+    <div className={'flex h-screen items-center justify-center border'}>
+      <ObjectiveKeyForm />
     </div>
   )
 }
